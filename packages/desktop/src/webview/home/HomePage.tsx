@@ -84,7 +84,7 @@ export function HomePage(props: Props) {
     <PageHeader
       showNavToggle={true}
       onNavToggle={onNavToggle}
-      logo={<Brand src={"images/BusinessModeler_Logo.svg"} alt="Business Modeler Logo" />}
+      // logo={<Brand src={"images/BusinessModeler_Logo.svg"} alt="Business Modeler Logo" />}
     />
   );
 

@@ -218,10 +218,10 @@ export function App() {
   //
   //
   // ONLINE
-  const online_open = useCallback((e: React.MouseEvent) => {
-    e.preventDefault();
-    electron.shell.openExternal(Constants.ONLINE_EDITOR_URL);
-  }, []);
+  // const online_open = useCallback((e: React.MouseEvent) => {
+  //   e.preventDefault();
+  //   electron.shell.openExternal(Constants.ONLINE_EDITOR_URL);
+  // }, []);
 
   useElectronIpcResponse(
     "desktop__launch_complete",
